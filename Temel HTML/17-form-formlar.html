@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><form-formlar></form-formlar></title>
+</head>
+<body>
+    <form action="islem.php" method="get">
+        <!--Form Elemanları-->
+
+        <!--Yukarıda method kısmı "get" ya da "post" olabilir. Get:gönderilen veriler tarayıcı adres satırında görünür. Post:adres satırında görünmez, daha güvenlidir.-->
+
+        <!--input type="" name=""-->
+
+        <!--Yukarıda type alanına değişik özellikler belirtilebilir. text, checkbox, radio vb.-->
+          
+        <!--Aşağıda Text öreneğini görebilirsiniz.-->
+        <input type="text" name="">
+
+        <!--Aşağıda Checkbox öreneğini görebilirsiniz.-->
+        <br>
+        Hangi kurslara katılmak istersiniz?
+        <br>
+        PHP<input type="checkbox" name="">
+        Bootstrapt 4<input type="checkbox" name="">
+        Javascript<input type="checkbox" name="">
+        JQuery<input type="checkbox" name="">
+        <br>
+
+        <!--Aşağıda Radio öreneğini görebilirsiniz.-->
+        Lütfen puanlama yapınız!
+        <br>
+        5 <input type="radio" name="">
+        4 <input type="radio" name="">
+        3 <input type="radio" name="">
+        2 <input type="radio" name="">
+        1 <input type="radio" name="">
+        <br>
+
+        <!--Aşağıda seçme listeleri oluşturabildiğimiz örneği görebilirsiniz.-->
+
+        <select>
+            <option value="Gönderilecek Değer">Erkek</option>
+            <option value="Gönderilecek Değer">Kadın</option>
+        </select>
+
+        <br>
+
+        <!--Aşağıda metin bölgesi örneğini görebilirsiniz.-->
+        Lütfen bize iletmek istediğiniz mesajı yazın!
+        <br>
+        <textarea rows="4" cols="50"></textarea>
+        <br>
+
+        <!--Aşağıda submit ve reset örneğini görebilirsiniz.-->
+        Adınızı Giriniz
+        <br>
+        <form action="islem.php">
+        <input type="text" name="">
+        <input type="submit" value="Formu Gönder" name="">
+        <input type="reset" value="Formu Temizle" name="">
+        <br>
+        
+        <!--Aşağıda şifre girme örneğini görebilirsiniz.-->
+        Şifrenizi Giriniz
+        <br>
+        <input type="password" name="">
+        <br>
+
+        <!--Aşağıda e-mail girme örneğini görebilirsiniz.-->
+        E-mail adresiniz
+        <input type="email" name="">
+        <input type="submit" value="Formu Gönder" name="">
+        <br>
+
+        <!--Aşağıda dosya yükleme örneğini görebilirsiniz.-->
+        Fotoğrafınızı seçiniz
+        <br>
+        <input type="file" name="">
+        <br>
+
+        <!--Aşağıda tarih girme örneğini görebilirsiniz.-->
+        Doğum Tarihinizi Giriniz
+        <br>
+        <input type="date" name="">
+        <br>
+
+        <!--Aşağıda min-max ayarlı tarih girme örneğini görebilirsiniz.-->
+        Doğum Tarihinizi Seçin
+        <br>
+        1986-12-31 tarihinden önce bir tarih girmelisiniz...
+        <br>
+        <input type="date" name="" max="1986-12-31">
+        <br>
+        2000-01-02 tarihinden sonra bir tarih girmelisiniz...
+        <input type="date" name="" min="2000-01-02">
+        <br>
+
+        <!--Aşağıda sayısal giriş örneğini görebilirsiniz.-->      
+        Yaşınız
+        <br>
+        <input type="number" name="" min="18" max="34">
+        <br>
+
+        <!--Aşağıda renk girme örneğini görebilirsiniz.-->
+        Renk seçiniz
+        <br>
+        <input type="color" name="">
+        <br>
+        <input type="hidden" name="id" value="25">
+        <br>
+
+        </form>
+    </form>
+</body>
+</html> 
